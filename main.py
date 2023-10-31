@@ -21,18 +21,21 @@ def load_groups_json(filename):
 
 # Funkce pro výběr akce z menu
 def select_action():
+    print("------------------------------------------------")
     print("1. Periodická Tabulka")
     print("2. Vyhledat prvky")
     print("3. Vlastnosti prvku")
     print("4. Molekulová hmotnost (Není implementováno)")
     print("5. Konec")
+    print("------------------------------------------------")
     choice = input("Vyberte akci (1-5): ")
     return choice
 
+elements = load_elements_csv('elements.csv')
+groups = load_groups_json('groups.json')
+
 # Hlavní část programu
 def main():
-    elements = load_elements_csv('elements.csv')
-    groups = load_groups_json('groups.json')
     print(elements)
     print(groups)
 
@@ -43,7 +46,7 @@ def main():
             vytvoreni_html.vytvor_html()
             pass
         elif choice == '2':
-            vyhledani_prvku.vyhledani_prvku()
+            vyhledani_prvku.prvek()
             pass
         elif choice == '3':
             vlastnosti_prvku.vlastnosti_prvku()
@@ -52,7 +55,7 @@ def main():
             print("Není implementováno")
             pass
         elif choice == '5':
-            pass
+            break
         else:
             print("Neplatná volba. Zvolte číslo od 1 do 7.")
 
