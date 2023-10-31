@@ -1,5 +1,6 @@
 import csv
 import json
+import vyhledani_prvku
 
 # Načtení dat z CSV souboru
 def load_elements_csv(filename):
