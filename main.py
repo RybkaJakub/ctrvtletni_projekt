@@ -23,8 +23,8 @@ def load_groups_json(filename):
 def select_action():
     print("1. Periodická Tabulka")
     print("2. Vyhledat prvky")
-    print("3. Skupenství")
-    print("4. Molekulová hmotnost")
+    print("3. Vlastnosti prvku")
+    print("4. Molekulová hmotnost (Není implementováno)")
     print("5. Konec")
     choice = input("Vyberte akci (1-5): ")
     return choice
@@ -36,21 +36,25 @@ def main():
     print(elements)
     print(groups)
 
-    """while True:
+    while True:
         choice = select_action()
 
         if choice == '1':
+            vytvoreni_html.vytvor_html()
             pass
         elif choice == '2':
+            vyhledani_prvku.vyhledani_prvku()
             pass
         elif choice == '3':
+            vlastnosti_prvku.vlastnosti_prvku()
             pass
         elif choice == '4':
+            print("Není implementováno")
             pass
         elif choice == '5':
             pass
         else:
             print("Neplatná volba. Zvolte číslo od 1 do 7.")
-        """
+
 if __name__ == "__main__":
     main()
