@@ -4,7 +4,7 @@ import json
 # Načtení dat z CSV souboru
 def load_elements_csv(filename):
     elements = []
-    with open(filename, newline='') as csvfile:
+    with open(filename,'r', encoding='utf-8') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
             elements.append(row)
@@ -18,14 +18,12 @@ def load_groups_json(filename):
 
 # Funkce pro výběr akce z menu
 def select_action():
-    print("1. Vyhledat prvek")
-    print("2. Zobrazit vlastnosti prvku")
-    print("3. Vypočítat průměrnou relativní atomovou hmotnost")
-    print("4. Generovat HTML tabulku")
-    print("5. Exportovat do XML")
-    print("6. Vytvořit Markdown soubor")
-    print("7. Konec")
-    choice = input("Vyberte akci (1-7): ")
+    print("1. Periodická Tabulka")
+    print("2. Vyhledat prvky")
+    print("3. Skupenství")
+    print("4. Molekulová hmotnost")
+    print("5. Konec")
+    choice = input("Vyberte akci (1-5): ")
     return choice
 
 # Hlavní část programu
@@ -37,25 +35,15 @@ def main():
         choice = select_action()
 
         if choice == '1':
-            # Implementujte vyhledání prvku
             pass
         elif choice == '2':
-            # Implementujte zobrazení vlastností prvku
             pass
         elif choice == '3':
-            # Implementujte výpočet průměrné relativní atomové hmotnosti
             pass
         elif choice == '4':
-            # Implementujte generování HTML tabulky
             pass
         elif choice == '5':
-            # Implementujte export do XML
             pass
-        elif choice == '6':
-            # Implementujte vytvoření Markdown souboru
-            pass
-        elif choice == '7':
-            break
         else:
             print("Neplatná volba. Zvolte číslo od 1 do 7.")
 
