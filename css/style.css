@@ -1,0 +1,127 @@
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+#tables {
+  max-width: 90%;
+  max-height: 90%;
+  margin: 0 auto;
+}
+
+#main {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+#main th {
+
+  width: 70px; /* Nastaví pevnou šířku */
+  height: 20px; /* Nastaví pevnou výšku */
+  max-width: 70px;
+  max-height: 20px;
+  text-align: center;
+  padding: 10px;
+    
+}
+
+#main td {
+  width: 70px; /* Nastaví pevnou šířku */
+  height: 80px; /* Nastaví pevnou výšku */
+  max-width: 70px;
+  max-height: 80px;
+  padding: 10px;
+  text-align: center;
+}
+
+#Symbol {
+
+    font-weight: bold;
+    font-size: 140%;
+    margin-top: 10px;
+
+}
+
+#Element {
+    font-weight: bold;
+    font-size: 70%;
+    text-transform: uppercase;
+}
+
+#main th {
+  background-color: #e0e0e0;
+  font-weight: bold;
+}
+
+#second {
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 14px;
+  margin-bottom: 20px;
+  justify-content: right;
+  margin-left: auto;
+}
+
+#second td {
+  width: 70px; /* Nastaví pevnou šířku */
+  height: 80px; /* Nastaví pevnou výšku */
+  max-width: 70px;
+  max-height: 80px;
+  padding: 10px;
+  text-align: center;
+}
+#Helium {
+    background-color: green;
+}
+
+#Noble {
+    background-color: yellow;
+}
+
+#Alkali {
+    background-color: lightcyan;
+}
+
+#Alkaline {
+    background-color: orange;
+}
+
+#Metalloid {
+    background-color: lightcoral;
+}
+
+#Nonmetal {
+    background-color: lightgreen;
+}
+
+#Halogen {
+    background-color: mediumpurple;
+}
+
+#Transition, #Metal, #Lanthanide, #Actinide, #Transactinide {
+    background-color: lightblue;
+}
+
+#None {
+    background-color: lightgray;
+}
+
+th#Empty:nth-child(5),
+td#Empty:nth-child(5) {
+  background-color: white;
+  width: 3px;
+}
+td#Radek:nth-child(1) {
+    background-color: #e0e0e0;
+    font-weight: bold;
+}
+th:nth-child(1) {
+    visibility: hidden;
+}
