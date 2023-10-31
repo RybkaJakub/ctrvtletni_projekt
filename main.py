@@ -29,10 +29,11 @@ def select_action():
     choice = input("Vyberte akci (1-5): ")
     return choice
 
+elements = load_elements_csv('elements.csv')
+groups = load_groups_json('groups.json')
+
 # Hlavní část programu
 def main():
-    elements = load_elements_csv('elements.csv')
-    groups = load_groups_json('groups.json')
     print(elements)
     print(groups)
 
