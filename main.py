@@ -12,7 +12,7 @@ def load_elements_csv(filename):
 
 # Načtení dat ze JSON souboru
 def load_groups_json(filename):
-    with open(filename, 'r') as jsonfile:
+    with open(filename, 'r', encoding='utf-8') as jsonfile:
         groups = json.load(jsonfile)
     return groups
 
@@ -30,8 +30,10 @@ def select_action():
 def main():
     elements = load_elements_csv('elements.csv')
     groups = load_groups_json('groups.json')
+    print(elements)
+    print(groups)
 
-    while True:
+    """while True:
         choice = select_action()
 
         if choice == '1':
@@ -46,7 +48,6 @@ def main():
             pass
         else:
             print("Neplatná volba. Zvolte číslo od 1 do 7.")
-
+        """
 if __name__ == "__main__":
     main()
-    print('lol')
