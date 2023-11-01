@@ -15,7 +15,7 @@ body {
 
 #main {
   border-collapse: separate;
-  border-spacing: 0;
+  border-spacing: 2.5px;
   width: 100%;
   font-size: 14px;
   margin-bottom: 20px;
@@ -62,7 +62,7 @@ body {
 
 #second {
   border-collapse: separate;
-  border-spacing: 0;
+  border-spacing: 2.5px;
   font-size: 14px;
   margin-bottom: 20px;
   justify-content: right;

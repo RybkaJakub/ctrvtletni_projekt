@@ -1,10 +1,12 @@
 import main
 
 
-def add_to_table(id, symbol, element):
+def add_to_table(id, atomic_number, symbol, element, atomic_mass):
     return (f"<td id='{id}'>"
+            f"<p id='AtomicNumber'> {atomic_number} </p>"
             f"<p id='Symbol'> {symbol} </p>"
             f"<p id='Element'> {element} </p>"
+            f"<p id='AtomicMass'> {atomic_mass} </p>"
             "</td>")
 
 
@@ -40,10 +42,10 @@ def create_html_table(elements, radek, prvek):
                     html_table2 += "<tr>"
                 if type:
                     # html_table += f"<td id='{type[0]}'>{element['Symbol']} \n {element['Element']}</td>"
-                    html_table2 += add_to_table(type[0], element['Symbol'], f"{element['Element']}")
+                    html_table2 += add_to_table(type[0], element['AtomicNumber'], element['Symbol'], f"{element['Element']}", element['AtomicMass'])
                 else:
                     # html_table += f"<td id='None'>{element['Symbol']} \n {element['Element']}</td>"
-                    html_table2 += add_to_table("None", element['Symbol'], f"{element['Element']}")
+                    html_table2 += add_to_table("None", element['AtomicNumber'], element['Symbol'], f"{element['Element']}", element['AtomicMass'])
                 if (prvek == 70 or prvek == 102):
                     html_table2 += "</tr>"
                 prvek += 1
@@ -51,15 +53,15 @@ def create_html_table(elements, radek, prvek):
                 element = elements[prvek]
                 if (i == 0):
                     # html_table += f"<td id='Helium'>{element['Symbol']} \n {element['Element']}</td>"
-                    html_table += add_to_table("Helium", element['Symbol'], f"{element['Element']}")
+                    html_table += add_to_table("Helium", element['AtomicNumber'], element['Symbol'], f"{element['Element']}", element['AtomicMass'])
                 else:
                     type = element['Type'].split()
                     if (type and prvek < 112):
                         # html_table += f"<td id='{type[0]}'>{element['Symbol']} \n {element['Element']}</td>"
-                        html_table += add_to_table(type[0], element['Symbol'], f"{element['Element']}")
+                        html_table += add_to_table(type[0], element['AtomicNumber'], element['Symbol'], f"{element['Element']}", element['AtomicMass'])
                     else:
                         # html_table += f"<td id='None'>{element['Symbol']} \n {element['Element']}</td>"
-                        html_table += add_to_table("None", element['Symbol'], f"{element['Element']}")
+                        html_table += add_to_table("None", element['AtomicNumber'], element['Symbol'], f"{element['Element']}", element['AtomicMass'])
                 prvek += 1
             if (i == 18 or i == 37 or i == 56 or i == 75 or i == 94 or i == 127):
                 html_table += "</tr>"
