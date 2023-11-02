@@ -39,9 +39,6 @@ groups = load_groups_json('groups.json')
 
 # Hlavní část programu
 def main():
-    print(elements)
-    print(groups)
-    prekladac.vygeneruj_csv()
 
     while True:
         choice = select_action()
