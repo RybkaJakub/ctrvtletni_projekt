@@ -33,10 +33,10 @@ body {
 }
 
 #main td {
-  width: 70px; /* Nastaví pevnou šířku */
-  height: 80px; /* Nastaví pevnou výšku */
-  max-width: 70px;
-  max-height: 80px;
+  width: 80px; /* Nastaví pevnou šířku */
+  height: 90px; /* Nastaví pevnou výšku */
+  max-width: 80px;
+  max-height: 90px;
   padding: 10px;
   text-align: center;
 }
@@ -70,10 +70,10 @@ body {
 }
 
 #second td {
-  width: 70px; /* Nastaví pevnou šířku */
-  height: 80px; /* Nastaví pevnou výšku */
-  max-width: 70px;
-  max-height: 80px;
+  width: 80px; /* Nastaví pevnou šířku */
+  height: 90px; /* Nastaví pevnou výšku */
+  max-width: 80px;
+  max-height: 90px;;
   padding: 10px;
   text-align: center;
 }
