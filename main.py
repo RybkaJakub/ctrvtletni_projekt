@@ -1,5 +1,8 @@
 import csv
 import json
+
+import prekladac
+
 import vyhledani_prvku
 import vlastnosti_prvku
 import vytvoreni_html
@@ -36,8 +39,6 @@ groups = load_groups_json('groups.json')
 
 # Hlavní část programu
 def main():
-    print(elements)
-    print(groups)
 
     while True:
         choice = select_action()
