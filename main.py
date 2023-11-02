@@ -1,5 +1,8 @@
 import csv
 import json
+
+import prekladac
+
 import vyhledani_prvku
 import vlastnosti_prvku
 import vytvoreni_html
@@ -38,6 +41,7 @@ groups = load_groups_json('groups.json')
 def main():
     print(elements)
     print(groups)
+    prekladac.vygeneruj_csv()
 
     while True:
         choice = select_action()

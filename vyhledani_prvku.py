@@ -3,9 +3,10 @@ from  translate import Translator
 
 translator = Translator(from_lang='en', to_lang='cs')
 def vyhledavani_prvku(vyhledavan):
-            csv_reader = main.elements
-            for row in csv_reader:
-                if row['Symbol'] == vyhledavan:
+        vyhledavan = vyhledavan.lower()
+        for row in main.elements:
+            for key, value in row.items():
+                if (vyhledavan in value.lower()) and (len(vyhledavan) == len(value)):
                     print(f"Symbol: {row['Symbol']}")
                     print(f"Název: {translator.translate(row['Element'])}")
                     print(f"Číslo: {row['AtomicNumber']}")
