@@ -4,7 +4,7 @@ import json
 import prekladac
 
 import vyhledani_prvku
-import vlastnosti_prvku
+import vypocet_hmotnosti
 import vytvoreni_html
 
 # Načtení dat z CSV souboru
@@ -27,7 +27,7 @@ def select_action():
     print("------------------------------------------------")
     print("1. Periodická Tabulka")
     print("2. Vyhledat prvky")
-    print("3. Vlastnosti prvku")
+    print("3. Výpočet průměrné atomové hmotnosti")
     print("4. Molekulová hmotnost (Není implementováno)")
     print("5. Konec")
     print("------------------------------------------------")
@@ -50,7 +50,7 @@ def main():
             vyhledani_prvku.prvek()
             pass
         elif choice == '3':
-            vlastnosti_prvku.vlastnosti_prvku()
+            vypocet_hmotnosti.prumerna_hmotnost(elements, groups)
             pass
         elif choice == '4':
             print("Není implementováno")
@@ -58,7 +58,7 @@ def main():
         elif choice == '5':
             break
         else:
-            print("Neplatná volba. Zvolte číslo od 1 do 7.")
+            print("Neplatná volba. Zvolte číslo od 1 do 5.")
 
 if __name__ == "__main__":
     main()
