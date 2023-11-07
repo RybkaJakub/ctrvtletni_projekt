@@ -52,43 +52,43 @@ def vyhledavani_prvku(vyhledavan, elements):
                 for row in elements:
                     if row['AtomicNumber'].lower() == cislo:
                         row_period(row, found_data)
-                break
+                        break
             elif vyhledavan.startswith("perioda"):
                 perioda = input("Zadej periodicke cislo: ")
                 for row in elements:
                     if row['Period'].lower() == perioda:
                         row_period(row, found_data)
-                break
+                        break
             elif vyhledavan.startswith("neutron"):
                 neutron = input("Zadej pocet neutronu: ")
                 for row in elements:
                     if row['NumberofNeutrons'].lower() == neutron:
                         row_period(row, found_data)
-                break
+                        break
             elif vyhledavan.startswith("proton"):
                 proton = input("Zadej protonove cislo: ")
                 for row in elements:
                     if row['NumberofProtons'].lower() == proton:
                         row_period(row, found_data)
-                break
+                        break
             elif vyhledavan.startswith("elektron"):
                 elektron = input("Zadej pocet elektronu: ")
                 for row in elements:
                     if row['NumberofElectrons'].lower() == elektron:
                         row_period(row, found_data)
-                break
+                        break
             elif vyhledavan.startswith("skupina"):
                 elektron = input("Zadej cislo skupiny: ")
                 for row in elements:
                     if row['Group'].lower() == elektron:
                         row_period(row, found_data)
-                break
+                        break
             elif vyhledavan.startswith("radioactive"):
                 rad = input("Radioaktivní: ")
                 for row in elements:
                     if row['Radioactive'].lower() == rad:
                         row_period(row, found_data)
-                break
+                        break
             elif vyhledavan.startswith("natural"):
                 neut = input("Naturální: ")
                 for row in elements:
@@ -106,14 +106,13 @@ def vyhledavani_prvku(vyhledavan, elements):
                 for row in elements:
                     if row['Nonmetal'].lower() == nometal:
                         row_period(row, found_data)
-                break
+                        break
             elif vyhledavan.startswith("metalloid"):
                 metall = input("metalloid: ")
                 for row in elements:
                     if row['Metalloid'].lower() == metall:
                         row_period(row, found_data)
-                break
-        break
+                        break
     return found_data
 
 
