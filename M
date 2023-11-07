@@ -1,1 +1,0 @@
-<data><record><Symbol>Ag</Symbol><N&#225;zev>St&#345;&#237;brn&#225;</N&#225;zev><&#268;&#237;slo>47</&#268;&#237;slo><Hmotnost>107.868</Hmotnost></record></data>

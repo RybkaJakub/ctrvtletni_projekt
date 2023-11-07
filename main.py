@@ -44,7 +44,7 @@ def main():
         choice = select_action()
 
         if choice == '1':
-            vytvoreni_html.vytvor_html()
+            vytvoreni_html.vytvor_html(elements)
             pass
         elif choice == '2':
             vyhledani_prvku.prvek()

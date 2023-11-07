@@ -1,5 +1,4 @@
-import main
-
+import webbrowser
 
 def add_to_table(id, atomic_number, symbol, element, atomic_mass):
     return (f"<td id='{id}'>"
@@ -74,11 +73,12 @@ def create_html_table(elements, radek, prvek):
     return html_table
 
 
-def vytvor_html():
+def vytvor_html(elements):
     prvek = 0
     radek = 1
-    html_table = create_html_table(main.elements, radek, prvek)
+    html_table = create_html_table(elements, radek, prvek)
 
     with open('periodic_table.html', 'w') as file:
         file.write(html_table)
     print("Periodická tabulka byla uložena do souboru 'periodic_table.html'.")
+    webbrowser.open("periodic_table.html")
