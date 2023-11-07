@@ -3,6 +3,7 @@ import json
 
 import vyhledani_prvku
 import vypocet_hmotnosti
+import vytvoreni_markdown
 import vytvoreni_html
 
 # Načtení dat z CSV souboru
@@ -26,7 +27,7 @@ def select_action():
     print("1. Periodická Tabulka")
     print("2. Vyhledat prvky")
     print("3. Výpočet průměrné atomové hmotnosti")
-    print("4. Molekulová hmotnost (Není implementováno)")
+    print("4. Markdown soubor")
     print("5. Konec")
     print("------------------------------------------------")
     choice = input("Vyberte akci (1-5): ")
@@ -45,13 +46,13 @@ def main():
             vytvoreni_html.vytvor_html(elements)
             pass
         elif choice == '2':
-            vyhledani_prvku.prvek(elements)
+            vyhledani_prvku.prvek()
             pass
         elif choice == '3':
             vypocet_hmotnosti.prumerna_hmotnost(elements, groups)
             pass
         elif choice == '4':
-            print("Není implementováno")
+            vytvoreni_markdown.vytvoreni_markdown(elements, groups)
             pass
         elif choice == '5':
             break

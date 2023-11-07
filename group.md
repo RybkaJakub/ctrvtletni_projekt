@@ -1,0 +1,197 @@
+# Skupina prvku - 18
+## Helium 
+- AtomicNumber : 2 
+- Symbol : He 
+- AtomicMass : 4.002 
+- NumberofNeutrons : 2 
+- NumberofProtons : 2 
+- NumberofElectrons : 2 
+- Period : 1 
+- Group : 18 
+- Phase : gas 
+- Radioactive :  
+- Natural : yes 
+- Metal :  
+- Nonmetal : yes 
+- Metalloid :  
+- Type : Noble Gas 
+- AtomicRadius : 0.49 
+- Electronegativity :  
+- FirstIonization : 24.5874 
+- Density : 1.79E-04 
+- MeltingPoint :  
+- BoilingPoint : 4.22 
+- NumberOfIsotopes : 5 
+- Discoverer : Janssen 
+- Year : 1868 
+- SpecificHeat : 5.193 
+- NumberofShells : 1 
+- NumberofValence :  
+## Neon 
+- AtomicNumber : 10 
+- Symbol : Ne 
+- AtomicMass : 20.18 
+- NumberofNeutrons : 10 
+- NumberofProtons : 10 
+- NumberofElectrons : 10 
+- Period : 2 
+- Group : 18 
+- Phase : gas 
+- Radioactive :  
+- Natural : yes 
+- Metal :  
+- Nonmetal : yes 
+- Metalloid :  
+- Type : Noble Gas 
+- AtomicRadius : 0.51 
+- Electronegativity :  
+- FirstIonization : 21.5645 
+- Density : 9.00E-04 
+- MeltingPoint : 24.703 
+- BoilingPoint : 27.07 
+- NumberOfIsotopes : 8 
+- Discoverer : Ramsay and Travers 
+- Year : 1898 
+- SpecificHeat : 1.03 
+- NumberofShells : 2 
+- NumberofValence : 8 
+## Argon 
+- AtomicNumber : 18 
+- Symbol : Ar 
+- AtomicMass : 39.948 
+- NumberofNeutrons : 22 
+- NumberofProtons : 18 
+- NumberofElectrons : 18 
+- Period : 3 
+- Group : 18 
+- Phase : gas 
+- Radioactive :  
+- Natural : yes 
+- Metal :  
+- Nonmetal : yes 
+- Metalloid :  
+- Type : Noble Gas 
+- AtomicRadius : 0.88 
+- Electronegativity :  
+- FirstIonization : 15.7596 
+- Density : 1.78E-03 
+- MeltingPoint : 83.96 
+- BoilingPoint : 87.3 
+- NumberOfIsotopes : 8 
+- Discoverer : Rayleigh and Ramsay 
+- Year : 1894 
+- SpecificHeat : 0.52 
+- NumberofShells : 3 
+- NumberofValence : 8 
+## Krypton 
+- AtomicNumber : 36 
+- Symbol : Kr 
+- AtomicMass : 83.798 
+- NumberofNeutrons : 48 
+- NumberofProtons : 36 
+- NumberofElectrons : 36 
+- Period : 4 
+- Group : 18 
+- Phase : gas 
+- Radioactive :  
+- Natural : yes 
+- Metal :  
+- Nonmetal : yes 
+- Metalloid :  
+- Type : Noble Gas 
+- AtomicRadius : 1 
+- Electronegativity :  
+- FirstIonization : 13.9996 
+- Density : 3.73E-03 
+- MeltingPoint : 115.93 
+- BoilingPoint : 119.93 
+- NumberOfIsotopes : 23 
+- Discoverer : Ramsay and Travers 
+- Year : 1898 
+- SpecificHeat : 0.248 
+- NumberofShells : 4 
+- NumberofValence : 8 
+## Xenon 
+- AtomicNumber : 54 
+- Symbol : Xe 
+- AtomicMass : 131.293 
+- NumberofNeutrons : 77 
+- NumberofProtons : 54 
+- NumberofElectrons : 54 
+- Period : 5 
+- Group : 18 
+- Phase : gas 
+- Radioactive :  
+- Natural : yes 
+- Metal :  
+- Nonmetal : yes 
+- Metalloid :  
+- Type : Noble Gas 
+- AtomicRadius : 1.2 
+- Electronegativity :  
+- FirstIonization : 12.1298 
+- Density : 5.89E-03 
+- MeltingPoint : 161.45 
+- BoilingPoint : 165.03 
+- NumberOfIsotopes : 31 
+- Discoverer : Ramsay and Travers 
+- Year : 1898 
+- SpecificHeat : 0.158 
+- NumberofShells : 5 
+- NumberofValence : 8 
+## Radon 
+- AtomicNumber : 86 
+- Symbol : Rn 
+- AtomicMass : 222 
+- NumberofNeutrons : 136 
+- NumberofProtons : 86 
+- NumberofElectrons : 86 
+- Period : 6 
+- Group : 18 
+- Phase : gas 
+- Radioactive : yes 
+- Natural : yes 
+- Metal : yes 
+- Nonmetal :  
+- Metalloid :  
+- Type : Noble Gas 
+- AtomicRadius : 1.3 
+- Electronegativity :  
+- FirstIonization : 10.7485 
+- Density : 9.73E-03 
+- MeltingPoint : 202.15 
+- BoilingPoint : 211.3 
+- NumberOfIsotopes : 20 
+- Discoverer : Dorn 
+- Year : 1900 
+- SpecificHeat : 0.094 
+- NumberofShells : 6 
+- NumberofValence : 8 
+## Oganesson 
+- AtomicNumber : 118 
+- Symbol : Og 
+- AtomicMass : 294 
+- NumberofNeutrons : 176 
+- NumberofProtons : 118 
+- NumberofElectrons : 118 
+- Period : 7 
+- Group : 18 
+- Phase : artificial 
+- Radioactive : yes 
+- Natural :  
+- Metal :  
+- Nonmetal : yes 
+- Metalloid :  
+- Type : Noble Gas 
+- AtomicRadius :  
+- Electronegativity :  
+- FirstIonization :  
+- Density :  
+- MeltingPoint :  
+- BoilingPoint :  
+- NumberOfIsotopes :  
+- Discoverer :  
+- Year : 2006 
+- SpecificHeat :  
+- NumberofShells : 7 
+- NumberofValence : 8 
