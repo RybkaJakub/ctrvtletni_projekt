@@ -8,11 +8,11 @@ def row_period(row, found_data):
     print(f"Element: {translator.translate(row['Element'])}")
     print(f"Číslo: {row['AtomicNumber']}")
     print(f"Hmotnost: {row['AtomicMass']}")
-    print(f"Protonove_cislo: {row['NumberofProtons']}")
-    print(f"Elektronove_cislo: {row['NumberofElectrons']}")
-    print(f"Neutronove_cislo: {row['NumberofNeutrons']}")
-    print(f"Periodicke_cislo: {row['Period']}")
-    print(f"Cislo_skupiny: {row['Group']}")
+    print(f"Protonove cislo: {row['NumberofProtons']}")
+    print(f"Elektronove cislo: {row['NumberofElectrons']}")
+    print(f"Neutronove cislo: {row['NumberofNeutrons']}")
+    print(f"Periodicke cislo: {row['Period']}")
+    print(f"Cislo skupiny: {row['Group']}")
     print(f"Radioaktivni: {row['Radioactive']}")
     print(f"Naturalní: {row['Natural']}")
     print(f"Kov: {row['Metal']}")
@@ -26,11 +26,11 @@ def row_period(row, found_data):
         "Element": translator.translate(row['Element']),
         "Číslo": row['AtomicNumber'],
         "Hmotnost": row['AtomicMass'],
-        "Protonove cislo": row['NumberofProtons'],
-        "Elektronove cislo": row['NumberofElectrons'],
-        "Neutronove cislo": row['NumberofNeutrons'],
-        "Periodicke cislo": row['Period'],
-        "cislo skupiny": row['Group'],
+        "Protonove_cislo": row['NumberofProtons'],
+        "Elektronove_cislo": row['NumberofElectrons'],
+        "Neutronove_cislo": row['NumberofNeutrons'],
+        "Periodicke_cislo": row['Period'],
+        "cislo_skupiny": row['Group'],
         "Radioaktivni": row['Radioactive'],
         "Naturalní": row['Natural'],
         "Kov": row['Metal'],
