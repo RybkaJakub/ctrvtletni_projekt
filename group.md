@@ -1,188 +1,104 @@
-# Skupina prvku - 18
-## Helium 
-- AtomicNumber : 2 
-- Symbol : He 
-- AtomicMass : 4.002 
-- NumberofNeutrons : 2 
-- NumberofProtons : 2 
-- NumberofElectrons : 2 
-- Period : 1 
-- Group : 18 
-- Phase : gas 
-- Radioactive :  
-- Natural : yes 
-- Metal :  
-- Nonmetal : yes 
-- Metalloid :  
-- Type : Noble Gas 
-- AtomicRadius : 0.49 
-- Electronegativity :  
-- FirstIonization : 24.5874 
-- Density : 1.79E-04 
-- MeltingPoint :  
-- BoilingPoint : 4.22 
-- NumberOfIsotopes : 5 
-- Discoverer : Janssen 
-- Year : 1868 
-- SpecificHeat : 5.193 
-- NumberofShells : 1 
-- NumberofValence :  
-## Neon 
-- AtomicNumber : 10 
-- Symbol : Ne 
-- AtomicMass : 20.18 
-- NumberofNeutrons : 10 
-- NumberofProtons : 10 
-- NumberofElectrons : 10 
-- Period : 2 
-- Group : 18 
-- Phase : gas 
-- Radioactive :  
-- Natural : yes 
-- Metal :  
-- Nonmetal : yes 
-- Metalloid :  
-- Type : Noble Gas 
-- AtomicRadius : 0.51 
-- Electronegativity :  
-- FirstIonization : 21.5645 
-- Density : 9.00E-04 
-- MeltingPoint : 24.703 
-- BoilingPoint : 27.07 
-- NumberOfIsotopes : 8 
-- Discoverer : Ramsay and Travers 
-- Year : 1898 
-- SpecificHeat : 1.03 
-- NumberofShells : 2 
-- NumberofValence : 8 
-## Argon 
-- AtomicNumber : 18 
-- Symbol : Ar 
-- AtomicMass : 39.948 
-- NumberofNeutrons : 22 
-- NumberofProtons : 18 
-- NumberofElectrons : 18 
-- Period : 3 
-- Group : 18 
-- Phase : gas 
-- Radioactive :  
-- Natural : yes 
-- Metal :  
-- Nonmetal : yes 
-- Metalloid :  
-- Type : Noble Gas 
-- AtomicRadius : 0.88 
-- Electronegativity :  
-- FirstIonization : 15.7596 
-- Density : 1.78E-03 
-- MeltingPoint : 83.96 
-- BoilingPoint : 87.3 
-- NumberOfIsotopes : 8 
-- Discoverer : Rayleigh and Ramsay 
-- Year : 1894 
-- SpecificHeat : 0.52 
-- NumberofShells : 3 
-- NumberofValence : 8 
-## Krypton 
-- AtomicNumber : 36 
-- Symbol : Kr 
-- AtomicMass : 83.798 
-- NumberofNeutrons : 48 
-- NumberofProtons : 36 
-- NumberofElectrons : 36 
+# Skupina prvku - 10
+## Nickel 
+- AtomicNumber : 28 
+- Symbol : Ni 
+- AtomicMass : 58.693 
+- NumberofNeutrons : 31 
+- NumberofProtons : 28 
+- NumberofElectrons : 28 
 - Period : 4 
-- Group : 18 
-- Phase : gas 
+- Group : 10 
+- Phase : solid 
 - Radioactive :  
-- Natural : yes 
-- Metal :  
-- Nonmetal : yes 
-- Metalloid :  
-- Type : Noble Gas 
-- AtomicRadius : 1 
-- Electronegativity :  
-- FirstIonization : 13.9996 
-- Density : 3.73E-03 
-- MeltingPoint : 115.93 
-- BoilingPoint : 119.93 
-- NumberOfIsotopes : 23 
-- Discoverer : Ramsay and Travers 
-- Year : 1898 
-- SpecificHeat : 0.248 
-- NumberofShells : 4 
-- NumberofValence : 8 
-## Xenon 
-- AtomicNumber : 54 
-- Symbol : Xe 
-- AtomicMass : 131.293 
-- NumberofNeutrons : 77 
-- NumberofProtons : 54 
-- NumberofElectrons : 54 
-- Period : 5 
-- Group : 18 
-- Phase : gas 
-- Radioactive :  
-- Natural : yes 
-- Metal :  
-- Nonmetal : yes 
-- Metalloid :  
-- Type : Noble Gas 
-- AtomicRadius : 1.2 
-- Electronegativity :  
-- FirstIonization : 12.1298 
-- Density : 5.89E-03 
-- MeltingPoint : 161.45 
-- BoilingPoint : 165.03 
-- NumberOfIsotopes : 31 
-- Discoverer : Ramsay and Travers 
-- Year : 1898 
-- SpecificHeat : 0.158 
-- NumberofShells : 5 
-- NumberofValence : 8 
-## Radon 
-- AtomicNumber : 86 
-- Symbol : Rn 
-- AtomicMass : 222 
-- NumberofNeutrons : 136 
-- NumberofProtons : 86 
-- NumberofElectrons : 86 
-- Period : 6 
-- Group : 18 
-- Phase : gas 
-- Radioactive : yes 
 - Natural : yes 
 - Metal : yes 
 - Nonmetal :  
 - Metalloid :  
-- Type : Noble Gas 
-- AtomicRadius : 1.3 
-- Electronegativity :  
-- FirstIonization : 10.7485 
-- Density : 9.73E-03 
-- MeltingPoint : 202.15 
-- BoilingPoint : 211.3 
-- NumberOfIsotopes : 20 
-- Discoverer : Dorn 
-- Year : 1900 
-- SpecificHeat : 0.094 
+- Type : Transition Metal 
+- AtomicRadius : 1.6 
+- Electronegativity : 1.91 
+- FirstIonization : 7.6398 
+- Density : 8.91E+00 
+- MeltingPoint : 1726.15 
+- BoilingPoint : 3186 
+- NumberOfIsotopes : 11 
+- Discoverer : Cronstedt 
+- Year : 1751 
+- SpecificHeat : 0.444 
+- NumberofShells : 4 
+- NumberofValence :  
+## Palladium 
+- AtomicNumber : 46 
+- Symbol : Pd 
+- AtomicMass : 106.42 
+- NumberofNeutrons : 60 
+- NumberofProtons : 46 
+- NumberofElectrons : 46 
+- Period : 5 
+- Group : 10 
+- Phase : solid 
+- Radioactive :  
+- Natural : yes 
+- Metal : yes 
+- Nonmetal :  
+- Metalloid :  
+- Type : Transition Metal 
+- AtomicRadius : 1.8 
+- Electronegativity : 2.2 
+- FirstIonization : 8.3369 
+- Density : 1.20E+01 
+- MeltingPoint : 1825.15 
+- BoilingPoint : 3236 
+- NumberOfIsotopes : 21 
+- Discoverer : Wollaston 
+- Year : 1803 
+- SpecificHeat : 0.244 
+- NumberofShells : 5 
+- NumberofValence :  
+## Platinum 
+- AtomicNumber : 78 
+- Symbol : Pt 
+- AtomicMass : 195.084 
+- NumberofNeutrons : 117 
+- NumberofProtons : 78 
+- NumberofElectrons : 78 
+- Period : 6 
+- Group : 10 
+- Phase : solid 
+- Radioactive :  
+- Natural : yes 
+- Metal : yes 
+- Nonmetal :  
+- Metalloid :  
+- Type : Transition Metal 
+- AtomicRadius : 1.8 
+- Electronegativity : 2.28 
+- FirstIonization : 8.9587 
+- Density : 2.15E+01 
+- MeltingPoint : 2045.15 
+- BoilingPoint : 4098 
+- NumberOfIsotopes : 32 
+- Discoverer : Ulloa/Wood 
+- Year : 1735 
+- SpecificHeat : 0.133 
 - NumberofShells : 6 
-- NumberofValence : 8 
-## Oganesson 
-- AtomicNumber : 118 
-- Symbol : Og 
-- AtomicMass : 294 
-- NumberofNeutrons : 176 
-- NumberofProtons : 118 
-- NumberofElectrons : 118 
+- NumberofValence :  
+## Darmstadtium  
+- AtomicNumber : 110 
+- Symbol : Ds  
+- AtomicMass : 271 
+- NumberofNeutrons : 161 
+- NumberofProtons : 110 
+- NumberofElectrons : 110 
 - Period : 7 
-- Group : 18 
+- Group : 10 
 - Phase : artificial 
 - Radioactive : yes 
 - Natural :  
-- Metal :  
-- Nonmetal : yes 
+- Metal : yes 
+- Nonmetal :  
 - Metalloid :  
-- Type : Noble Gas 
+- Type : Transactinide 
 - AtomicRadius :  
 - Electronegativity :  
 - FirstIonization :  
@@ -191,7 +107,7 @@
 - BoilingPoint :  
 - NumberOfIsotopes :  
 - Discoverer :  
-- Year : 2006 
+- Year : 1994 
 - SpecificHeat :  
 - NumberofShells : 7 
-- NumberofValence : 8 
+- NumberofValence :  

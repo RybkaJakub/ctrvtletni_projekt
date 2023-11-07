@@ -22,6 +22,7 @@ def groupmass(elements):
         if row['Group'] == input_:
             mass += float(row['AtomicMass'])
             count += 1
+    print("------------------------------------------------")
     print(f"Průměrná atomová hmotnost je {round(mass / count, 2)}")
 
 def periodmass(elements):
@@ -35,6 +36,7 @@ def periodmass(elements):
         if row['Period'] == input_:
             mass += float(row['AtomicMass'])
             count += 1
+    print("------------------------------------------------")
     print(f"Průměrná atomová hmotnost je {round(mass / count, 2)}")
 
 def prumerna_hmotnost(elements, groups):
