@@ -46,7 +46,7 @@ def main():
             vytvoreni_html.vytvor_html(elements)
             pass
         elif choice == '2':
-            vyhledani_prvku.prvek()
+            vyhledani_prvku.prvek(elements)
             pass
         elif choice == '3':
             vypocet_hmotnosti.prumerna_hmotnost(elements, groups)

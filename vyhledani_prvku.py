@@ -8,20 +8,35 @@ def row_period(row, found_data):
     print(f"Element: {translator.translate(row['Element'])}")
     print(f"Číslo: {row['AtomicNumber']}")
     print(f"Hmotnost: {row['AtomicMass']}")
-    print(f"Protonove cislo: {row['NumberofProtons']}")
-    print(f"Elektronove cislo: {row['NumberofElectrons']}")
-    print(f"Neutronove cislo: {row['NumberofNeutrons']}")
-    print(f"Periodicke cislo: {row['Period']}")
-    print(f"Cislo skupiny: {row['Group']}")
-    print(f"Typ: {row['Type']}")
+    print(f"Protonove_cislo: {row['NumberofProtons']}")
+    print(f"Elektronove_cislo: {row['NumberofElectrons']}")
+    print(f"Neutronove_cislo: {row['NumberofNeutrons']}")
+    print(f"Periodicke_cislo: {row['Period']}")
+    print(f"Cislo_skupiny: {row['Group']}")
+    print(f"Radioaktivni: {row['Radioactive']}")
+    print(f"Naturalní: {row['Natural']}")
+    print(f"Kov: {row['Metal']}")
+    print(f"Nekov: {row['Nonmetal']}")
+    print(f"Metalloid: {row['Metalloid']}")
     print(f"Typ: {row['Type']}")
     print("------------------------------------------------")
 
     found_data.append({
         "Symbol": row['Symbol'],
-        "Název": translator.translate(row['Element']),
+        "Element": translator.translate(row['Element']),
         "Číslo": row['AtomicNumber'],
-        "Hmotnost": row['AtomicMass']
+        "Hmotnost": row['AtomicMass'],
+        "Protonove cislo": row['NumberofProtons'],
+        "Elektronove cislo": row['NumberofElectrons'],
+        "Neutronove cislo": row['NumberofNeutrons'],
+        "Periodicke cislo": row['Period'],
+        "cislo skupiny": row['Group'],
+        "Radioaktivni": row['Radioactive'],
+        "Naturalní": row['Natural'],
+        "Kov": row['Metal'],
+        "Nekov": row['Nonmetal'],
+        "Metalloid": row['Metalloid'],
+        "Typ": row['Type']
     })
 def vyhledavani_prvku(vyhledavan, elements):
     vyhledavan = vyhledavan.lower()
@@ -74,10 +89,10 @@ def vyhledavani_prvku(vyhledavan, elements):
                     if row['Radioactive'].lower() == rad:
                         row_period(row, found_data)
                 break
-            elif vyhledavan.startswith("neutral"):
-                neut = input("Neutralni: ")
+            elif vyhledavan.startswith("natural"):
+                neut = input("Naturální: ")
                 for row in elements:
-                    if row['Neutral'].lower() == neut:
+                    if row['Natural'].lower() == neut:
                         row_period(row, found_data)
                 break
             elif vyhledavan.startswith("metal"):
@@ -98,6 +113,7 @@ def vyhledavani_prvku(vyhledavan, elements):
                     if row['Metalloid'].lower() == metall:
                         row_period(row, found_data)
                 break
+        break
     return found_data
 
 
@@ -114,29 +130,12 @@ def save_to_xml(data, xml_filename):
         root.append(record)
 
     tree = ET.ElementTree(root)
-
-    # Uložte XML soubor s formátem
-    tree.write(xml_filename, encoding="utf-8", xml_declaration=True)
-
-    # Přidejte odkaz na XSL soubor do XML souboru
-    xslt_link = ET.Element("xml-stylesheet")
-    xslt_link.set("type", "text/xsl")
-    xslt_link.set("href", "styles.xsl")
-    root.insert(0, xslt_link)
-
-data = [
-    {
-        "Symbol": ['Symbol'],
-        "Název": 'Element',
-        "Číslo": 'AtomicNumber',
-        "Hmotnost": 'AtomicMass'
-    }
-]
+    tree.write(xml_filename, encoding="utf-8")
 
 def prvek(elements):
     print("Pkoud chcete vyhledávat pomocí čísla, tak napiště jednu z moznostic cislo, perioda, neutron, proton, elektron, skupina")
     print("Další možnosti vyhledvávání: Radioactive, Natural, Metal, Nonmetal,	Metalloid")
     vyhledavani = input("Zadej vlastnost prvku: ")
-    save_to_xml(vyhledavani_prvku(vyhledavani,elements), "M.xml")
+    save_to_xml(vyhledavani_prvku(vyhledavani, elements), "M.xml")
 
 
