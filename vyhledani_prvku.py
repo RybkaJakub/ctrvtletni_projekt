@@ -113,7 +113,7 @@ def vyhledavani_prvku(vyhledavan, elements):
                     if row['Nonmetal'].lower() == nometal:
                         row_period(row, found_data)
                 break
-
+        break
     return found_data
 
 
